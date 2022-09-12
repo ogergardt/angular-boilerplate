@@ -1,0 +1,6 @@
+<button type="button" [routerLink]="['', { outlets: { details : null } }]">x</button>
+
+<section *ngFor="let hero of heroes">
+    <h3>Hero name: {{hero.name}}</h3>
+    <p>Powers: {{hero.powers}}</p>
+</section>
